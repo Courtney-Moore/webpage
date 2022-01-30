@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+header{
+    background-color:black;
+    min-height: 50px;
+    padding: .5rem 0;
+
+}
+.container{
+    width: 75%;
+    background-color:black;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+.container2{
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    padding-left:20%;
+}
+
+main{
+    background-color:white;
+    min-height:100%;
+    width: 50%;
+
+}
+aside{
+    background-color: white;
+    width: 35%;
+    min-height: 100%;
+}
+.flexed{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.leftside{
+    background-color: black;
+    min-height:50px ;
+    color:white;
+}
+.flexedcenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+header ul{
+    list-style: none;
+}
+.marginbottom{
+    margin-bottom: 1.5rem;
+}
+.profilecard{
+    background-color:white;
+    min-height: 300px;
+    margin-bottom: 20px;
+    margin-right:20px ;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 5%;
+}
+.profileheader{
+    background-color:black;
+    height: 100px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: visible;
+
+}
+
+.profileheader img{
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.namebox{
+    padding-top: 60px;
+    padding-left: 20px
+}
+.location{
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.protraits{
+    padding-left: 25px;
+}
+
+.education{
+    border: 5px solid black;
+    border-radius: 5%;
+}
+
+.educationbody{
+    background-color:white;
+    height:100%;
+    width: 100%;
+    margin-right: 20px;
+}
+.eduheader{
+    width: 100%;
+    padding: 5px 5px;
+    background-color: black;
+}
+.flexedcenternospace{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.editbox{
+    margin-top: 10px;
+    margin-left: 25px;
+    color: white;
+}
+
+.connectionrequests{
+    border: 5px solid black;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+.requests{
+    min-height: 100px;
+    background-color:white;
+    width:100%;
+    
+}
+.reqheader{
+    height: 10%;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: left;
+}
+
+.requestnumber{
+    border-radius: 50%;
+    background-color:grey ;
+    color: whitesmoke;
+    margin-left: 15px;
+    overflow: visible;
+    text-align: center;
+}
+.toddbox img{
+    border-radius: 50%;
+    border: 2px solid black
+}
+
+.philbox img{
+    border-radius: 50%;
+    border: 2px solid black
+}
+.yourconnections{
+    border: solid black 5px;
+}
+
+.connections{
+    min-height: 100px;
+    background-color:white;
+    width: 75% ;
+    
+}
+
+.connectionsheader{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+}
+.fivehplus{
+    border-radius: 80%;
+    background-color:gray ;
+    color: whitesmoke;
+    margin-left: 15px;
+    width: 15%;
+    height: 100%;
+}
+
+.connection1 img{
+    border-radius: 50%;
+    border: 2px solid black
+}
+
+.connection2 img{
+    border-radius: 50%;
+    border: 2px solid black
+}
+
+.connection3 img{
+    border-radius: 50%;
+    border: 2px solid black
+}
+
+.connection4 img{
+    border-radius: 50%;
+    border: 2px solid black
+}
+.padding{
+    padding: 20px;
+}
+
+
+
+
+
+
